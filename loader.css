@@ -125,8 +125,7 @@ body
     0 0 50px #e41cf8;
 }
 
-.container p
-{
+.container p{
     background: linear-gradient(100deg, #00aeff,#c300ff,#93ff2d);
     background-clip: text;
     -webkit-background-clip: text;
@@ -136,4 +135,23 @@ body
     font-family:consolas;
     bottom: -80px;
     letter-spacing: 0.15em;
+}
+.container h5{
+    bottom: -150px;
+    position: absolute;
+    font-family: consolas;
+    color: #ffffff;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-right: 1px solid #03e9f4;
+    animation: typing 5s steps(10) infinite;
+}
+@keyframes typing{
+    0%,90%,100%{
+        width: 0px;
+    }
+    30%,60%{
+        width: 108.88px;
+    }
 }
