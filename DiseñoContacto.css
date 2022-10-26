@@ -17,7 +17,7 @@ body{
 
 /*Menu de navegacion*/
 header{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     display: flex;
     min-height: 70px;
     align-items: center;
@@ -25,44 +25,14 @@ header{
     justify-content: space-between;
 }
 a{
+    font-size: 40px;
     text-decoration: none;
     color: #000;
-    width: 1000px;;
 }
 a:hover{
     color:white;
 }
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    height: 100px;
-    margin-right: 10px;
-}
-nav a{
-    font-weight: 800;
-    padding-right: 10px;
-}
-nav a:hover{
-    color: white;
-}
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
-    .pagina img{
-        width: 50px;
-    }
-    .so{
-        width: 80px;
-        height: 80px;
-    }
 
-}
 /*---------------------------------------*/
 
 .card{
@@ -173,6 +143,7 @@ nav a:hover{
     transform: translateY(0px);
 }
 .card .content .details h2{
+
     font-size: 1.25em;
     font-weight: 600;
     color: #45f3ff;
